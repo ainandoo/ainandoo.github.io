@@ -1,0 +1,61 @@
+body {
+  background: #11998e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+* {
+  font-family: Garamond, serif;
+}
+
+h1,
+h2,
+q,
+p {
+  text-align: center;
+  color: white;
+}
+
+h3 q {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+q {
+  background-color: cornflowerblue;
+  display: block;
+}
+
+#countdown {
+  font-size: 5em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  h3 q {
+    width: 100%;
+  }
+}
